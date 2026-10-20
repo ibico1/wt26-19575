@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Razmjena knjiga </title>
+</head>
+<body>
+<h1> Dobrodošli na zvaničnu stranicu "Razmjena knjiga između studenata" </h1>
+<h2> Informacije o događaju </h2>
+	<p> Razmjena knjiga izvršit će se na platou Skenderija, Sarajevo. Razmjena knjiga 	odvijat će se na principu 1 na 1, odnosno knjige će biti razmještene po temama i 	njihovom sadržaju tako da će student moći pristupiti bilo kojem štandu, a da bi se 	izbjegle gužve, svaki štand će biti označen kratkim opisom teme knjiga.</p>
+		<p>Datum razmjene je 17. i 18. oktobar 2026. godine. Događaj je namijenjen 		studentima koji žele razmijeniti knjige, pronaći korisnu literaturu i 			upoznati druge studente sa sličnim interesovanjima.</p>
+<img src="knjige.jpg"
+     alt="Štand sa knjigama koje studenti mogu razmijeniti"
+     width="500">
+
+<p> Primjeri knjiga koje studenti mogu donijeti </p>
+<ul style = "list-style-type:disc">
+<li> Zbirka zadataka iz Inženjerske matematike 1 </li>
+<li> Knjige na temu život i sreća </li>
+<li> Udžbenici i stručna literatura </li>
+</ul>
+
+<p> Lokaciju događaja možete pronaći na
+<a href = "https://www.google.com/maps/search/Skenderija+Sarajevo">Google Mapsu.</a>
+</p>
+
+<h2> Prijava i učešće </h2>
+    <p>Da bismo imali okviran broj posjetilaca, molimo vas da popunite sljedeću formu. Popunjavanje forme služi za evidenciju zainteresovanih studenata. Za dodatne informacije možete se obratiti organizatorima događaja.</p>
+
+<form>
+<label for="ime">Ime:</label><br>
+<input type="text" id="ime" name="ime"><br>
+
+<label for="prezime">Prezime:</label><br>
+<input type="text" id="prezime" name="prezime">
+
+<p> Da li planirate donijeti knjigu za razmjenu? </p>
+<input type="radio" id="da" name="donosenje" value="da">
+<label for="da">Da</label><br>
+
+<input type="radio" id="ne" name="donosenje" value="ne">
+<label for="ne">Ne</label><br>
+
+<p> Označite ako želite primati dodatne informacije o događaju:</p>
+
+<input type="checkbox" id = "informacije" name="informacije">
+<label for="informacije">Želim primati dodatne informacije </label><br>
+
+<p>Koju vrstu knjiga najviše tražite?</p>
+<label for="vrsta">Odaberite vrstu knjiga:</label><br>
+<select id="vrsta" name="vrsta">
+	<option value="strucne">Stručna literatura</option>
+	<option value="beletristika">Beletristika</option>
+	<option value="matematika">Mateatika i tehničke nauke</option>
+	<option value="ostalo">Ostalo</option>
+</select>
+</form>
+</body>
+</html>
