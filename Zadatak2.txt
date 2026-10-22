@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Narudžba pozivnica</title>
+</head>
+<body>
+    <h1>Narudžba personalizovanih pozivnica</h1>
+
+    <p>Popunite formu kako biste odabrali pozivnice
+    prema svojim željama.</p>
+
+    <form>
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime">
+
+        <br><br>
+
+        <label for="tekst">Tekst na pozivnici:</label>
+        <input type="text" id="tekst" name="tekst">
+
+        <br><br>
+
+        <label for="vrsta">Vrsta pozivnice:</label>
+        <select id="vrsta" name="vrsta">
+            <option value="rodjendan">Rođendan</option>
+            <option value="vjenčanje">Vjenčanje</option>
+            <option value="matura">Matura</option>
+        </select>
+
+        <br><br>
+
+        <p>Odaberite boju pozivnice:</p>
+
+        <input type="radio" id="bijela" name="boja"
+               value="bijela">
+        <label for="bijela">Bijela</label>
+
+        <input type="radio" id="roza" name="boja"
+               value="roza">
+        <label for="roza">Roza</label>
+
+        <input type="radio" id="plava" name="boja"
+               value="plava">
+        <label for="plava">Plava</label>
+
+        <br><br>
+
+        <p>Odaberite dodatne ukrase:</p>
+
+        <input type="checkbox" id="cvijece"
+               name="ukrasi" value="cvijece">
+        <label for="cvijece">Cvijeće</label>
+
+        <input type="checkbox" id="masna"
+               name="ukrasi" value="masna">
+        <label for="masna">Mašna</label>
+
+        <input type="checkbox" id="sljokice"
+               name="ukrasi" value="sljokice">
+        <label for="sljokice">Šljokice</label>
+    </form>
+</body>
+</html>
