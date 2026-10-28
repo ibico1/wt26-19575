@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box; 
+}
+
+#glavni-naslov{
+    color:blue;
+}
+
+.ponuda{
+   background-color: #ffffff;
+    padding: 25px; /* Zajednički padding za sve */
+    border: 2px solid #e0e0e0; /* Osnovni border */
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.ponudaIzuzetak {
+    background-color:blue;
+}
+
+.ponuda h3 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.ponuda p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.dodatna-info {
+    display: inline-block;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
