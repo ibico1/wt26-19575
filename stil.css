@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+
+* {
+    box-sizing: border-box; /* Ključno: izračunava širinu zajedno sa paddingom */
+}
+
+body{
+    background-color: #a7a09a;
+    margin: 0;
+    
+}
+
+#okvir {
+    background-color: #99c;
+    margin: 0 auto;
+    width: 750px;
+}
+
+#zaglavlje{
+    background-color: #ddd;
+}
+
+#zaglavlje h1{
+    color: green;
+    font-family: 'Gabriela', serif;
+    font-size: 42pt;
+    margin: 0;
+    padding: 10px;
+}
+
+#meni {
+    background-color: #c99;
+    color: black;
+    padding: 5px 10px;
+}
+
+#meni ul{
+
+     list-style-type: none;
+     margin: 0;
+    padding: 0;
+    
+}
+
+#meni li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+#glavni {
+    padding: 0 20px 20px 20px;
+    background-color: #9c9;
+    color: black;
+    float: left;
+    width: 470px;
+}
+
+#desno {
+    background-color: #c9c;
+    color: black;
+    width: 280px;
+    float: left;
+    padding: 0 20px 20px 20px;
+}
+
+#podnozje {
+    background-color: #cc9;
+    color: black;
+    clear: both;
+    padding: 10px 20px;
+}
+
+
+
