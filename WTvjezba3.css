@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #CCCCCC;
+  padding: 8px 12px;
+  text-align: center;
+  min-width: 24px;
+}
+
+th {
+  background-color: #CCCCCC;
+  font-weight: bold;
+}
+
+tr.parni td {
+  background-color: #FFF2CC;
+}
