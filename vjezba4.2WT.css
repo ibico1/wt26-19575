@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #99cc99;
+    text-align: center;
+    padding: 15px;
+}
+
+section {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#greska {
+    color: red;
+    font-weight: bold;
+}
+
+#prikaz {
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+#prikaz.vazno {
+    background-color: #ffe0e0;
+    border-color: red;
+}
+
+#prikaz.obavijest {
+    background-color: #e0f0ff;
+    border-color: blue;
+}
+
+#prikazKategorija {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+}

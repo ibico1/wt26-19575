@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma za obavijest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kreiranje obavijesti</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Unos obavijesti</h2>
+
+            <form id="forma">
+                <label for="naslov">Naslov:</label>
+                <input type="text" id="naslov">
+
+                <label for="tekst">Tekst obavijesti:</label>
+                <textarea id="tekst"></textarea>
+
+                <label for="kategorija">Kategorija:</label>
+                <select id="kategorija">
+                    <option value="vazno">Važno</option>
+                    <option value="obavijest">Obavijest</option>
+                </select>
+
+                <button type="button" id="pregled">Prikaži pregled</button>
+                <button type="reset" id="ponisti">Poništi</button>
+            </form>
+
+            <p id="greska"></p>
+        </section>
+
+        <section>
+            <h2>Pregled obavijesti</h2>
+
+            <article id="prikaz">
+                <h3 id="prikazNaslov">Naslov obavijesti</h3>
+                <p id="prikazTekst">Ovdje će se prikazati tekst obavijesti.</p>
+                <span id="prikazKategorija">Kategorija</span>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
