@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#forma input {
+    margin-right: 10px;
+}
+
+#greska {
+    color: rgb(113, 11, 11);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 350px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 6px 10px;
+}
+
+th {
+    background-color: #eee;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+#redZbir {
+    font-weight: bold;
+    background-color: #eba0d9;
+}

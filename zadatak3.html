@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadatak 3-Evidencija troškova</title>
+    <link rel="stylesheet" href="zadatak3.css">
+</head>
+<body>
+    <h1>Evidencija troškova</h1>
+    <form id="forma">
+        <label for="naziv">Naziv:</label>
+        <input type="text" id="naziv">
+        <label for="iznos">Iznos (KM):</label>
+        <input type="text" id="iznos">
+        <button type="button" id="dodaj">Dodaj</button>
+    </form>
+    <p id="greska"></p>
+    <p id="brojStavki">Broj stavki: 3</p>
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Naziv</th>
+                <th>Iznos (KM)</th>
+            </tr>
+        </thead>
+        <tbody id="tijelo">
+            <tr>
+                <td>Kafa</td>
+                <td class="iznos">3.50</td>
+            </tr>
+            <tr>
+                <td>Tramvajska karta</td>
+                <td class="iznos">1.80</td>
+            </tr>
+            <tr>
+                <td>Ručak</td>
+                <td class="iznos">12.00</td>
+            </tr>
+            <tr id="redZbir">
+                <td>UKUPNO</td>
+                <td id="zbir">17.30</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="prosjek">Prosjek</p>
+    <p id="maksimalni">Max element</p>
+    <script src="zadatak3.js"></script>
+</body>
+</html>
