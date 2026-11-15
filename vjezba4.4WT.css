@@ -1,0 +1,13 @@
+.godina{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.podstablo{
+    display: none;
+    margin-left: 20px;
+}
+
+.naslov{
+    padding: 5px;
+}
